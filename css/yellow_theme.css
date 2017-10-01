@@ -1,0 +1,109 @@
+
+/*start option_box*/
+
+.color_option li
+{
+  background: #FFD500
+
+;
+}
+
+.option_box .color_option
+{
+   border:2px solid #FFD500
+
+;
+ }
+
+ .option_box .gear-check
+{
+   background: #FFD500
+
+;
+}
+
+
+/*end option_box*/
+
+/* start navbar*/
+ .navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover, 
+ .navbar-inverse .navbar-nav > .active > a:focus 
+{
+    background-color: #FFD500
+
+;
+
+}
+
+.dropdown-menu 
+{
+   border-top: 1px solid #FFD500
+
+;
+
+}  
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+   background-color: #FFD500
+
+;
+
+}  
+
+/* end navbar*/
+
+
+/* start carousel*/
+.navbar-brand span
+{
+   color:#FFD500
+
+; 
+   
+}
+/* end carousel*/
+
+
+/*start about*/
+.about span
+{
+  color:#FFD500
+
+; 
+}
+/*end about*/
+
+
+/* start testmonials*/
+
+.testmonials .carousel-indicators li.active
+{
+
+  border: 3px solid #FFD500
+
+;
+}
+
+/*end testmonials*/
+
+
+/*start footer*/
+.footer h3
+{
+  color: #FFD500
+
+;
+}
+
+
+.copyright span
+{
+  color:#FFD500
+
+;
+}
+
+/*end footer*/

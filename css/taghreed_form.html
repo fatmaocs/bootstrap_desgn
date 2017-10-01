@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Chart Demo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="public/css/the-big-picture.css" rel="stylesheet">
+
+    <style type="text/css">
+        .chart-container
+        {
+            margin: auto;
+            padding-top: 1%;
+            padding-bottom: 5%;
+        }
+
+        body
+        {
+            background: url('images/tota/pic1.jpg') ;
+        }
+    </style>
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>-->
+
+</head>
+
+<body>
+
+<!-- Page Content -->
+<section>
+    <div class="chart-container" style="position: relative; height:30vh; width:48vw">
+
+
+        <canvas id="myChart"></canvas>
+
+    </div>
+</section>
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+<script>
+
+    var ctx = document.getElementById('myChart').getContext('2d');
+
+    //    var chart = new Chart(ctx, {
+    //        // The type of chart we want to create
+    //        type: 'line',
+    //
+    //        // The data for our dataset
+    //        data: {
+    //            labels: ["January", "February", "March", "April", "May", "June", "July"],
+    //            datasets: [{
+    //                label: "My First dataset",
+    //                backgroundColor: 'rgb(255, 99, 132)',
+    //                borderColor: 'rgb(255, 99, 132)',
+    //                data: [0, 10, 5, 2, 20, 30, 45],
+    //            }]
+    //        },
+    //
+    //        // Configuration options go here
+    //        options: {}
+    //    });
+    //
+
+    // For a pie chart
+    var myPieChart = new Chart(ctx,{
+        type: 'pie',
+        data: {
+            datasets: [{
+                label: "My First dataset",
+                                backgroundColor: ['red','yellow','brown','green','blue','cyan','orange'],
+                                borderColor: 'rgb(255, 99, 132)',
+                                data: [0, 10, 5, 2, 20, 30, 45],
+            }],
+
+            // These labels appear in the legend and in the tooltips when hovering different arcs
+            labels: ["January", "February", "March", "April", "May", "June", "July"],
+        },
+        options: {
+
+        }
+    });
+
+
+
+</script>
+
+
+</body>
+
+</html>

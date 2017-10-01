@@ -1,0 +1,99 @@
+
+
+/*start option_box*/
+
+.color_option li
+{
+  background: #009AFF
+;
+}
+
+.option_box .color_option
+{
+   border:2px solid #009AFF
+;
+ }
+
+ .option_box .gear-check
+{
+   background: #009AFF
+;
+}
+
+
+/*end option_box*/
+
+/* start navbar*/
+ .navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover, 
+ .navbar-inverse .navbar-nav > .active > a:focus 
+{
+    background-color: #009AFF
+;
+
+}
+
+.dropdown-menu 
+{
+   border-top: 1px solid #009AFF
+;
+
+}  
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+   background-color: #009AFF
+;
+
+}  
+
+/* end navbar*/
+
+
+/* start carousel*/
+.navbar-brand span
+{
+   color:#009AFF
+; 
+   
+}
+/* end carousel*/
+
+
+/*start about*/
+.about span
+{
+  color:#009AFF
+; 
+}
+/*end about*/
+
+
+/* start testmonials*/
+
+.testmonials .carousel-indicators li.active
+{
+
+  border: 3px solid #009AFF
+;
+}
+
+/*end testmonials*/
+
+
+/*start footer*/
+.footer h3
+{
+  color: #009AFF
+;
+}
+
+
+.copyright span
+{
+  color:#009AFF
+;
+}
+
+/*end footer*/
